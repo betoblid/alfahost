@@ -14,6 +14,8 @@ TEXTO DO BANNER
 <subtitulo> O melhor serviço de hospedagem na web para o seu site.
 <paragrafo> Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.
 
+
+
 TEXTO DO PRIMEIRO ANUNCIO
 
 <subtitulo> Hospede o seu site por apenas R$29 por mês.
@@ -43,38 +45,26 @@ TEXTO DA SEÇÃO TABELA DE PREÇOS
 Texto da Tabela
 
 1° Coluna
-<subtitulo> PESSOAL
-<paragrafo> Indicado para uso pessoal
-<celula> 1 usuário
-<celula> 1 domínio grátis
-<celula> 200GB SSD espaço
+
+ 
 <celula> Ofertas especiais
 <celula> Suporte limitado
 
 2° Coluna
-<subtitulo> PROFISSIONAL
-<paragrafo> Indicado para profissionais de T.I
-<celula> 10 usuários
-<celula> 2 domínios grátis
-<celula> 500GB SSD espaço
+
+
 <celula> Ofertas especiais
 <celula> Suporte ilimitado
 
 3° Coluna
-<subtitulo> EMPRESARIAL
-<paragrafo> Indicado para empresas
-<celula> 25 usuários
-<celula> 2 domínios grátis
-<celula> 1TB SSD espaço
+
+
 <celula> Ofertas especiais
 <celula> Suporte ilimitado
 
 4° Coluna
-<subtitulo> BIG TECHS
-<paragrafo> Indicado para grandes empresas
-<celula> 50 usuários
-<celula> 3 domínios grátis
-<celula> 2TB SSD espaço
+
+
 <celula> Ofertas especiais
 <celula> Suporte ilimitado
 
