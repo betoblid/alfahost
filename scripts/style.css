@@ -2,7 +2,9 @@
     margin: 0;
     padding: o;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
+/*todos os menus mobile e desktop todos aqui aparti do header*/
 .container-desktop ul img, .mobile ul img{
     width: 80px;
 }
@@ -15,6 +17,28 @@
     align-items: center;
     list-style: none;
 }
+.container-desktop nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font: 500 18px 'Poppins';
+}
+.container-desktop nav a:hover{
+    color: rgb(26, 124, 252);
+}
+img{
+    animation: earth 6s infinite;
+}
+@keyframes earth {
+	0% {
+		transform: translateY(0px);
+	} 50% {
+		transform: translateY(20px);
+	} 100%{
+        transform: translateY(0px);
+    }
+}
+/*toda configuração do menu bar com a logo*/
 .mobile{
     display: flex;
     align-items: center;
@@ -22,13 +46,12 @@
     width: 100%;
     position: relative;
 }
-.container-desktop nav a{
-    text-decoration: none;
-    color: black;
-    margin-left: 10px;
-}
-button img{
+.mobile button img{
     width: 50px;
+}
+.mobile button{
+    border: none;
+    background-color: white;
 }
 .on{
     background-color: rgb(75, 75, 75);
@@ -40,24 +63,205 @@ button img{
 .on a{
     display: block;
     color: white;
-    font: 500 16pt "Arial";
+    font: 500 16pt "Poppins";
     padding: 40px 100px;
     text-decoration: none;
+    transition: all .9s;
 }
 .on a:hover{
     background-color: rebeccapurple;
+    transition: all .9s;
 }
-
 .off{
     display: none;
 }
+/*fim do menu mobile */
+/*configurando secao banner*/
+.container-banner{
+    background-color: rgb(26, 124, 252);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.box-text{
+    width: 50%;
+    margin: 0 auto;
+}
+.box-text p{
+    padding: 40px 0;
+    font-size: 20px;
+    width: 80%;
+}
+.box-text h2{
+    font-size: 40px;
+}
+/*configurando secao anuncio 1 e 2 */
+.container-anuncio{
+   background-color: rgb(26, 38, 51);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 25px 0;
+}
+.box-link a{
+    text-decoration: none;
+    color: white;
+    font: 500 18px 'Poppins';
+    background-color: rgb(26, 124, 252);
+    padding: 20px;
+}
+/*configurando secao informações*/
+span{
+    color: rgb(26, 124, 252);
+}
+.container-informacao img{
+    width: 120px;
+}
+#informaçoes h2{
+    width: 50%;
+    margin: 60px auto;
+    text-align: center;
+}
+.container-informacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+.box-info{
+    width: 20%;
+    text-align: center;
+    margin: 40px 0;
+}
+/*configurando secao tabela de planos*/
+#tabela h2{
+    text-align: center;
+    font-size: 30px;
+}
+th img{
+    width: 80px;
+}
+th p{
+    color: rgb(161, 161, 161);
+}
+tr td{
+    padding: 20px 40px;
+}
+table{
+    width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px 6px rgb(26, 124, 252);
 
+}
+/*configurando secao rodapé*/
+footer ul li img{
+    width: 120px;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-top: 40px;
+}
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+}
+.rodape{
+    padding: 60px 0;
+}
+.rodape a, .desenvolvido a{
+    text-decoration: none;
+    color: black;
+    font: 700 16px 'Poppins';
+}
+.desenvolvido{
+    background-color: white;
+    width: 100%;
+}
+.desenvolvido p{
+    font: 400 12px 'Poppins';
+}
+.desenvolvido a{
+    font-size: 12px;
+}
 @media(max-width: 700px){
-    .container-desktop{
+    .container-desktop, .box-banner{
         display: none;
     }
     header{
         display: flex;
+    }
+    .box-text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    /*anuncio de telas pequenas*/
+    .container-anuncio{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-anuncio{
+        width: 100%;
+        font-size: 14px;
+    }
+    .box-link{
+        width: 65%;
+        margin: 0 auto;
+    }
+    .box-link a{
+        padding: 20px 10px;
+        font-size: 16px;
+    }
+    /*informação*/
+    #informaçoes h2{
+        width: 90%;
+    }
+    .box-info{
+        width: 30%;
+        
+    }
+    /*configurando secao tabela de planos*/
+    th img{
+        width: 60px;
+    }
+    th p{
+        font-size: 14px;
+    }
+    tr td{
+        padding: 10px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    table{
+        width: 99%;
+    }
+    /*anuncio responsivo*/
+    .container-anuncio h3{
+        font-size: 14px;
+     }
+     .container-anuncio p{
+        font-size: 12px;
+     }
+     .box-link a{
+        width: 100%;
+        font-size: 12px;
+     }
+}
+@media(min-width: 701px) and (max-width: 1024px){
+    .box-text{
+        width: 95%;
+    }
+    .box-banner img{
+        display: flex;
+        width: 350px;
     }
 }
 @media(min-width: 701px){

@@ -12,6 +12,12 @@
         <!--link dos scripts-->
         <link rel="stylesheet" type="text/css" href="scripts/style.css">
         <script src="scripts/script.js"></script>
+        <!--links de font da pagina font poppings-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
     </head>
     <body>
         <header>
@@ -41,7 +47,7 @@
                     </li> 
                 </ul>
                 <nav>
-                    <a href="#informaçao">INFORMAÇÕES</a>
+                    <a href="#informaçoes">INFORMAÇÕES</a>
                     <a href="#plano">PLANOS</a>
                     <a href="preços.html">PREÇOS</a>
                     <a href="#contato">CONTATO</a>
@@ -52,37 +58,49 @@
         <main>
             <!--banner da pagina primeira seção onde tera uma imagem de fundo-->
             <section id="banner">
-                <div class="container-text">
-                    <p>Simples - Fácil de usar - 10x mais rápido</p>
-                    <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
-                    <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+                <div class="container-banner">
+                    <div class="box-text">
+                        <p>Simples - Fácil de usar - 10x mais rápido</p>
+                        <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
+                        <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+                    </div>
+                    <div class="box-banner">
+                        <img src="assets/imagem-banner.png" alt="">
+                    </div>
                 </div>
             </section>
             <!--link de um anuncio-->
             <section>
-                <h3>Hospede o seu site por apenas R$29,00 por mês.</h3>
-                <p>Também temos planos gratuitos. Adquire já o seu.</p>
-                <a href="tabela.html">PREÇOS</a>
+                <div class="container-anuncio">
+                    <div class="box-anuncio">
+                        <h3> Hopede o seu site por apenas R$29,00 por mês
+                        </h3>
+                        <p>Também temos planos gratuitos. adquirajá o seu.</p>
+                    </div>
+                    <div class="box-link">
+                        <a href="preço.html">TABELA DE PREÇOS</a>
+                    </div>
+                </div>
             </section>
             <!--SEÇÃO INFORMAÇOES DO SITE-->
-            <section>
+            <section id="informaçoes">
                 <h2>Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span></h2>
                 <!--boxs da parte das informaçoes-->
                 <div class="container-informacao">
-                    <div class="box">
+                    <div class="box-info">
                         <img src="assets/icone-engrenagens.png" alt="">
 
                         <h4>Fácil de configurar</h4>
                         <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...</p>
                     </div>
 
-                    <div class="box">
+                    <div class="box-info">
                         <img src="assets/cloud-icone.png" alt="">
 
                         <h4>Servidores 100% Online</h4>
                         <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
                     </div>
-                    <div class="box">
+                    <div class="box-info">
                         <img src="assets/icone-suporte.png" alt="">
                         <h4>Suporte 24/7</h4>
                         <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
@@ -90,9 +108,8 @@
                 </div>
             </section>
             <!--secao tabela de planos-->
-            <section>
-                <h2>Pague somente pelo que for usar. Sem cobranças adicionais!</h2>
-
+            <section id="plano">
+                <h2>Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!</h2>
                 <table>
                     <thead>
                         <tr>
@@ -160,16 +177,16 @@
             <!--secao anuncio de planos 2-->
             <section>
                 <div class="container-anuncio">
-                    <div class="box">
+                    <div class="box-anuncio">
                         <h3> Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h3>
                     </div>
-                    <div class="box">
+                    <div class="box-link">
                         <a href="preço.html">TABELA DE PREÇOS</a>
                     </div>
                 </div>
             </section>
         </main>
-        <footer>
+        <footer id="contato">
             <ul>
                 <li>
                     <img src="assets/logo-icone-escuro.png" alt="">
@@ -181,13 +198,11 @@
             </ul>
             <div class="rodape">
                 <p>Telefone & Whatsapp: <a href="tel:(21) 99999-5555">(21) 99999-5555</a></p>
-                <p>E-mail: <a href="mailton:suporte@alfatech.com">suporte@alfatech.com</a></p>
+                <p>E-mail: <a href="mailto:suporte@alfatech.com">suporte@alfatech.com</a></p>
                 <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
             </div>
-            <div class="direitos">
-                <p> &copy; AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
-            </div>
             <div class="desenvolvido">
+                <p> &copy; AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
                 <p>Desenvolvido por <a href="">"herbert souza"</a></p>
             </div>
         </footer>
