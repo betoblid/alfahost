@@ -1,0 +1,131 @@
+TÍTULO DA PÁGINA HOME
+AlfaTech
+
+TEXTO DO TOPO
+
+<logo>
+	<titulo> AlfaTech
+	<paragrafo> Soluções em hospedagem
+	<links> HOME / PLANOS / PREÇOS / CONTATO
+	
+TEXTO DA TABELA (CABEÇALHO)
+
+1° Célula
+<paragrafo> PESSOAL
+<subtitulo> GRÁTIS
+
+2° Célula
+<paragrafo> PROFISSIONAL
+<subtitulo> R$29
+
+4° Célula
+<paragrafo> EMPRESARIAL
+<subtitulo> R$59
+
+5° Célula
+<paragrafo> PROFISSIONAL
+<subtitulo> R$99
+
+TEXTO DA TABELA (CORPO)
+ 
+(* -> representa os marcadores azuis)
+(--- -> representa as células vazias)
+
+1° Coluna
+<celula> MONITORAMENTO DE REDE
+<celula> DASHBOARD
+<celula> USUÁRIOS
+<celula> RELATÓRIO DE ATUALIZAÇÃO
+<celula> RELATÓRIO DE EMAILS
+<celula> TRANSAÇÃO ILIMITADAS
+<celula> RASTREADOR DE PAGAMENTO
+<celula> EXPORTAÇÃO DE DADOS
+<celula> CONVERSOR DE MOEDA
+<celula> ACESSO A API
+<celula> RESTRIÇÃO DE IP
+<celula> FEED PERSONALIZADO
+<celula> LIMITE DE IMPORTAÇÃO DE DADOS
+<celula> RETENÇÃO DE DADOS
+<celula> SUPORTE
+
+2° Coluna
+<celula> 3 REDES
+<celula> 1 DASHBOARD
+<celula> 1 USUÁRIO
+<celula> TODA HORA
+<celula>     *
+<celula>     *
+<celula>     *
+<celula>     *
+<celula>    ---
+<celula>    ---
+<celula>    ---
+<celula>    ---
+<celula> ÚLTIMO ANO
+<celula> TEMPO DE VIDA
+<celula> EMAIL
+
+3° Coluna
+<celula> 10 REDES
+<celula> 5 DASHBOARDS
+<celula> 5 USUÁRIOS
+<celula> A CADA 30 MINUTOS
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>     ---
+<celula>     ---
+<celula> ÚLTIMOS 2 ANOS
+<celula> TEMPO DE VIDA
+<celula> EMAIL & CHAT
+
+4° Coluna
+<celula> 20 REDES
+<celula> 10 DASHBOARDS
+<celula> 10 USUÁRIOS
+<celula> QUASE EM TEMPO REAL
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula> ÚLTIMOS 3 ANOS
+<celula> TEMPO DE VIDA
+<celula> EMAIL & CHAT
+
+5° Coluna
+<celula> 50 REDES
+<celula> 25 DASHBOARDS
+<celula> 25 USUÁRIOS
+<celula> TEMPO REAL
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>      *
+<celula>     ---
+<celula>     ---
+<celula> ÚLTIMOS 3 ANOS
+<celula> TEMPO DE VIDA
+<celula> EMAIL, CHAT & VOICE
+
+
+TEXTO DO RODAPÉ
+
+<titulo> AlfaTech
+<paragrafo> Soluções em hospedagem
+<paragrafo> © AlfaTech - Soluções em hospedagem - Todos os direitos reservados
+<paragrafo> Desenvolvido por "nome do aluno"
+
+
+
+
+
+

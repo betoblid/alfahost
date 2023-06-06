@@ -1,0 +1,100 @@
+TÍTULO DA PÁGINA HOME
+AlfaTech
+
+TEXTO DO TOPO
+
+<logo>
+	<titulo> AlfaTech
+	<paragrafo> Soluções em hospedagem
+	<links> INFORMAÇÕES / PLANOS / PREÇOS / CONTATO
+	
+TEXTO DO BANNER
+
+<paragrafo> Simples - Fácil de usar - 10x mais rápido
+<subtitulo> O melhor serviço de hospedagem na web para o seu site.
+<paragrafo> Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.
+
+TEXTO DO PRIMEIRO ANUNCIO
+
+<subtitulo> Hospede o seu site por apenas R$29 por mês.
+<paragrafo> Também temos planos gratuitos. Adquira já o seu.
+<link> TABELA DE PREÇOS
+
+TEXTO DA SEÇÃO INFORMAÇÕES
+
+<subtitulo> Existem diversos serviços de hospedagem de sites. Porque você deve nos escolher?
+
+1° Informação
+<subtitulo> Fácil de configurar
+<paragrafo> Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...
+
+2° Informação
+<subtitulo> Servidores 100% Online
+<paragrafo> Serviços que operam 100% do tempo para manter o seu site online...
+
+3° Informação
+<subtitulo> Suporte 24/7
+<paragrafo> Suporte altamente treinado e especializado em soluções de Cloud...
+
+TEXTO DA SEÇÃO TABELA DE PREÇOS
+
+<subtitulo> Pague somente pelo que for usar. Sem cobranças adicionais!
+
+Texto da Tabela
+
+1° Coluna
+<subtitulo> PESSOAL
+<paragrafo> Indicado para uso pessoal
+<celula> 1 usuário
+<celula> 1 domínio grátis
+<celula> 200GB SSD espaço
+<celula> Ofertas especiais
+<celula> Suporte limitado
+
+2° Coluna
+<subtitulo> PROFISSIONAL
+<paragrafo> Indicado para profissionais de T.I
+<celula> 10 usuários
+<celula> 2 domínios grátis
+<celula> 500GB SSD espaço
+<celula> Ofertas especiais
+<celula> Suporte ilimitado
+
+3° Coluna
+<subtitulo> EMPRESARIAL
+<paragrafo> Indicado para empresas
+<celula> 25 usuários
+<celula> 2 domínios grátis
+<celula> 1TB SSD espaço
+<celula> Ofertas especiais
+<celula> Suporte ilimitado
+
+4° Coluna
+<subtitulo> BIG TECHS
+<paragrafo> Indicado para grandes empresas
+<celula> 50 usuários
+<celula> 3 domínios grátis
+<celula> 2TB SSD espaço
+<celula> Ofertas especiais
+<celula> Suporte ilimitado
+
+TEXTO DO SEGUNDO ANUNCIO
+
+<subtitulo> Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!
+<link> TABELA DE PREÇOS
+
+TEXTO DO RODAPÉ
+
+<titulo> AlfaTech
+<paragrafo> Soluções em hospedagem
+<paragrafo> Telefone & Whatsapp: (21) 99999-5555
+<paragrafo> E-mail: suporte@alfatech.com
+<paragrafo> Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro
+<paragrafo> © AlfaTech - Soluções em hospedagem - Todos os direitos reservados
+<paragrafo> Desenvolvido por "nome do aluno"
+
+
+
+
+
+
